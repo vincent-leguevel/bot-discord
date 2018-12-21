@@ -1,10 +1,10 @@
+import {VoiceChannel} from "discord.js";
+
 /**
  * Retire le prefix de la commande
  * @param message
  * @param prefix
  */
-import {VoiceChannel} from "discord.js";
-
 export function removePrefix(message: String, prefix: String) : String {
     return message.split(' ')[0].substr(prefix.length,message.length);
 };

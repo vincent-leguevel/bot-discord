@@ -4,7 +4,6 @@ import * as Collections from 'typescript-collections';
 import youtubeSearch from 'youtube-search';
 import config from '../config.json';
 import {nbAverageChannel} from "../util/utilsStreamBot";
-import {deprecate} from "util";
 
 interface streamQueue {
     idUser : string
